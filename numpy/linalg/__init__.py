@@ -8,7 +8,6 @@ def __getattr__(name):
             f"This module was removed to reduce package size."
       )
 
-
 def matrix_power(*args, **kwargs):
       raise ImportError(
             "numpy.linalg.matrix_power is not available in this minimal build."
